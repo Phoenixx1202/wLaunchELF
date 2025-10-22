@@ -441,7 +441,7 @@ static int drawMainScreen(void)
             menu_LK[nElfs] = i;  // memorize RunElf index for this menu entry
             switch (i) {
                 case SETTING_LK_AUTO:
-                    strcpy(c, "Default: ");
+                    strcpy(c, "Padrão: ");
                     break;
                 case SETTING_LK_CIRCLE:
                     strcpy(c, "     \xFF"
