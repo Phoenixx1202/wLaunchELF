@@ -155,7 +155,7 @@ lang(130, Gateway, "Gateway")
 lang(131, Save_to, "Save to")
 //--------------------------------------------------------------
 lang(132, Right_DPad_to_Edit, "Right D-Pad to Edit")
-lang(133, Button_Settings, "Button Settings")
+lang(133, Button_Settings, "Configurações de botão")
 lang(134, Show_launch_titles, "Show launch titles")
 lang(135, Disc_control, "Disc control")
 lang(136, Hide_full_ELF_paths, "Hide full ELF paths")
