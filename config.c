@@ -2392,7 +2392,7 @@ void config(char *mainMsg, const char *CNF)
             for (i = CONFIG_MAIN_FIRST; i < CONFIG_MAIN_AFT_BTNS; i++) {
                 switch (i) {
                     case CONFIG_MAIN_DEFAULT:
-                        strcpy(c, "  Default: ");
+                        strcpy(c, "  Padrão: ");
                         break;
                     case CONFIG_MAIN_BTN_CIRCLE:
                         strcpy(c, "  \xFF"

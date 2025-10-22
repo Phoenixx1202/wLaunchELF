@@ -310,24 +310,24 @@ static void Show_About_uLE(void)
         // Display section
         if (event || post_event) {  // NB: We need to update two frame buffers per event
             clrScr(setting->color[COLOR_BACKGR]);
-            sprintf(TextRow, "About wLaunchELF %s  %s", ULE_VERSION, ULE_VERDATE);
+            sprintf(TextRow, "Sobre o wLaunchELF %s  %s", ULE_VERSION, ULE_VERDATE);
             PrintPos(03, hpos, TextRow);
             sprintf(TextRow, "                         commit: %s", GIT_HASH);
             PrintPos(04, hpos, TextRow);
-            PrintPos(05, hpos, "Project maintainers:");
+            PrintPos(05, hpos, "Mantenedores do Projeto:");
             PrintPos(-1, hpos, "  sp193");
             PrintPos(-1, hpos, "  AKuHAK");
             PrintPos(-1, hpos, "");
-            PrintPos(-1, hpos, "uLaunchELF Project maintainers:");
+            PrintPos(-1, hpos, "uLaunchELF Mantenedores do Projeto:");
             PrintPos(-1, hpos, "  Eric Price       (aka: 'E P')");
             PrintPos(-1, hpos, "  Ronald Andersson (aka: 'dlanor')");
             PrintPos(-1, hpos, "");
-            PrintPos(-1, hpos, "Other contributors:");
+            PrintPos(-1, hpos, "Outros Contribuidores:");
             PrintPos(-1, hpos, "  Polo35, radad, Drakonite, sincro");
             PrintPos(-1, hpos, "  kthu, Slam-Tilt, chip, pixel, Hermes");
             PrintPos(-1, hpos, "  and others in the PS2Dev community");
             PrintPos(-1, hpos, "");
-            PrintPos(-1, hpos, "Main release site:");
+            PrintPos(-1, hpos, "Repositório Oficial:");
             PrintPos(-1, hpos, "  \"https://github.com/ps2homebrew/wLaunchELF/releases\"");
             PrintPos(-1, hpos, "");
             PrintPos(-1, hpos, "Ancestral project: LaunchELF v3.41");
